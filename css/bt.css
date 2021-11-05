@@ -1,0 +1,110 @@
+.jumbotron {
+    background-image: url("/assets/site1.jpeg");
+    color: white;
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+    margin: 0px;
+    padding: 100px 25px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+    font-family:
+        "Lucida Grande",
+        Helvetica,
+        "Helvetica Neue",
+        "HelveticaNeue-Light",
+        "Helvetica Neue Light",
+        Arial,
+        sans-serif;
+    font-size: 90%;
+}
+
+#intro {
+
+    margin: 0;
+    padding: 60px 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 300px;
+    clear: both;
+}
+
+
+#section1 {
+    background-attachment: fixed;
+    background-image: url("/assets/site2.jpeg");
+    background-repeat: no-repeat;
+    color: black;
+    background-position: 50% 10%;
+    height: 600px;
+    background-size: cover;
+    margin: 0px;
+    padding: 200px 50px;
+}
+
+#section2 {
+    background-color: black;
+    color: aliceblue;
+    background-position: 50% 10%;
+    height: 600px;
+    background-size: cover;
+    margin: 0px;
+    padding: 150px 100px;
+}
+
+#head3 {
+    margin: 0;
+    padding: 60px 40px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    height: 150px;
+    clear: both;
+}
+
+
+.card {
+    background-color: white;
+    color: black;
+    height: 600px;
+    background-size: cover;
+    margin: 30px;
+    padding: 30px 30px;
+}
+
+#section3 {
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url("/assets/site5.jpeg");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: 50% 10%;
+    height: 700px;
+    background-size: cover;
+    margin: 0px;
+    padding: 200px 50px;
+}
+
+#section4 {
+    background-position: 50% 10%;
+    text-align: center;
+    height: 200px;
+    background-color: white;
+    color: black;
+    padding: 30px 30px;
+    margin: 0px;
+
+}
+
+#footer {
+    height: 100px;
+    padding: 30px 30px;
+    margin: 0px
+}
