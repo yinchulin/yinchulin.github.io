@@ -1,0 +1,46 @@
+.jumbotron {
+    background-position: center;
+    height: 40vh;
+    background-color: rgb(255, 255, 255, 0.6);
+    background-image: url("/assets1/site1.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0px;
+    padding: 100px 100px;
+}
+
+#intro {
+
+    margin: 0;
+    padding: 60px 40px;
+    width: 100%;
+    background-color: white;
+    color:black;
+    height: 20vh;
+    clear: both;
+}
+
+
+
+#3c4b5b7f-bd06-4703-967f-385f7908d05f{
+    height: 20vh; 
+}
+
+
+
+#section1 {
+    background-color:rgb(255, 255, 255);
+    color: black;
+    height: 400px;
+    background-size: cover;
+    margin: 0px;
+    padding: 100px 100px;
+}
+
+#footer {
+    height: 100px;
+    padding: 30px 30px;
+    margin: 0px
+}
