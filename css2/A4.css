@@ -1,0 +1,40 @@
+.jumbotron {
+    background-position: center;
+    height: 40vh;
+    background-color: rgb(255, 255, 255, 0.6);
+    background-image: url("/assets2/site1.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0px;
+    padding: 100px 100px;
+}
+
+#intro {
+
+    margin: 0;
+    padding: 60px 40px;
+    width: 100%;
+    background-color: white;
+    color:black;
+    height: 20vh;
+    clear: both;
+}
+
+#intro2 {
+
+    margin: 0;
+    padding: 60px 40px;
+    width: 100%;
+    background-color: white;
+    color:black;
+    height: 20vh;
+    clear: both;
+}
+
+#footer {
+    height: 40px;
+    padding: 40px 40px;
+    margin: 0px
+}
