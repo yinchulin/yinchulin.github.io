@@ -1,0 +1,17 @@
+.slideanimate {
+	visibility: hidden;
+}
+
+.slide {
+	visibility: visible;
+}
+
+
+#h1{color:rgb(255, 255, 255);
+text-align: center;}
+
+#footer {
+    height: 20px;
+    padding: 10px 10px;
+    margin: 0px
+}

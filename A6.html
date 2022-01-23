@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>A6</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css6/css6.css">
+
+</head>
+
+<body>
+
+    <div id="outer" style="width:100vw;background:linear-gradient(rgb(255, 254, 254), rgb(0, 0, 0));height: 10000px">
+        <h1 class="display-4" style="color: aliceblue;text-align:center;padding-top: 20vh;">20平方的空間 能源貧窮戶在臺灣</h1>
+        <img src="/assets6/A6.001.png" class="img-fluid slideanimate" data-pos=1000 data-direction="fadeInUp"
+            style="position:fixed;left:-100px;top:0px;width:100vw;">
+        <img src="/assets6/A6.002.png" class="img-fluid slideanimate" data-pos=2000 data-direction="fadeInRight"
+            style="position:fixed;left:-100px;top:0px;width:100vw;">
+        <img src="/assets6/A6.003.png" class="img-fluid slideanimate" data-pos=3000 data-direction="fadeInDown"
+            style="position:fixed;left:-100px;top:0px;width:100vw;">
+        <img src="/assets6/A6.004.png" class="img-fluid slideanimate" data-pos=4000 data-direction="fadeInLeft"
+            style="position:fixed;left:-100px;top:0px;width:100vw;">
+        <img src="/assets6/A6.005.png" class="img-fluid slideanimate" data-pos=5000 data-direction="fadeIn"
+            style="position:fixed;left:-100px;top:0px;width:100vw;">
+    </div>
+
+    <div id="footer" class="container-fluid">
+        <footer class="container-fluid text-center">
+            <p>設計／林尹筑；照片／林尹筑</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(function () {
+            var winh = $(window).height();
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                $(".slideanimate").each(function () {
+                    if (scrolled > $(this).data("pos")) {
+                        $(this).addClass(
+                            "animate__animated slide animate__" + $(this).data("direction")
+                        );
+                    }
+                    if (scrolled == 0) {
+                        $(this).removeClass(
+                            "animate__animated slide animate__" + $(this).data("direction")
+                        );
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
